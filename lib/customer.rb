@@ -1,3 +1,13 @@
 class Customer
+  attr_accessor :name, :age
+
+  @@all = []
+
+  def initialize(nane, age)
+    @name = name
+    @age = age
+    @@all << self
+  end
   
+    
 end
