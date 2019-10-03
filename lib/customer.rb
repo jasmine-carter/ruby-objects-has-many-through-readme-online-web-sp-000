@@ -9,5 +9,5 @@ class Customer
     @@all << self
   end
   
-    
+
 end
